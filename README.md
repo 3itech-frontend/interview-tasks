@@ -3,7 +3,7 @@
     const encode = input => [...input]
         .map((x, i) => [x.charCodeAt(0), i])
         .sort()
-        .flatMap(x => x)
+        .flat()
         .join('.')
         .match(/./g)
         .flatMap((x, i) => new Array(x == '.' ? 1 : 2 + x * 2).fill((1 + i) % 2))
