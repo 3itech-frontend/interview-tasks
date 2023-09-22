@@ -3,7 +3,7 @@
 ## 1. Верстка
 ### Задача: дополнить scss правила так, чтобы представленная html разметка приобрела вид как на картинке.
 
-![пример](https://raw.githubusercontent.com/DenisRoss/interview-tasks/main/example.png)
+![пример](https://raw.githubusercontent.com/3itech-frontend/interview-tasks/main/example.png)
 
 ```html
 <div class='dialog-container'>
